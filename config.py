@@ -24,13 +24,13 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME 🌺</b>\n{upti
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "Don't send me messages directly I'm only File Share bot! 📌")
 
 #your bot token here from https://telegram.me/BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8565018790:AAHSIaTEEKOGdK_6Twj5LPKH0YleqvC-f_I") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8514251249:AAGdwc1jpJUB0PCWljHDm6R4m5oplN6ZAKI") 
 #your api id from https://my.telegram.org/apps
 APP_ID = int(os.environ.get("APP_ID", "22128383"))
 #your api hash from https://my.telegram.org/apps
 API_HASH = os.environ.get("API_HASH", "7992b5c5c9c6d34276c3dce9e46ba879")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002998057898"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003494765620"))
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
 OWNER_ID = int(os.environ.get("OWNER_ID", "5960133511"))
 #port set to default 8080
@@ -142,5 +142,6 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
+
 
 
